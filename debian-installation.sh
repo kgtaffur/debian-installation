@@ -1,14 +1,14 @@
 #!/bin/sh
 apt-get update && apt-get upgrade -y
 
-apt-get install openbox obconf mousepad rxvt-unicode tint2 xfce4-screenshooter ristretto atril lightdm compton lxappearance rofi alsa-utils volumeicon-alsa unzip sudo pcmanfm git vim curl wget gnome-backgrounds rar unrar vlc -y
+apt-get install openbox obconf mousepad rxvt-unicode tint2 xfce4-screenshooter ristretto atril lightdm compton lxappearance rofi alsa-utils volumeicon-alsa unzip sudo pcmanfm git vim curl wget gnome-backgrounds rar unrar vlc lightdm-gtk-greeter-settings -y
 
 curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add - 
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
 apt-get update && apt-get install spotify-client -y
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-apt-get install ./google-chrome-stable_current_amd64.deb lightdm-gtk-greeter-settings -y
+apt-get install ./google-chrome-stable_current_amd64.deb -y
 
 wget https://github.com/shaggyz/openbox-tenebris/releases/download/1.0.0/tenebris.obt
 
