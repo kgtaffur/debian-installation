@@ -43,6 +43,7 @@ Install tenebris theme (/home/**username**):
 * [Google Emoji font (NotoColorEmoji).]
 * [Roboto Mono fonts.]
 * [Tenebris openbox theme (file obt to install).]
+* [LightDM GTK+ Greeter.]
 
 [Openbox.]: https://packages.debian.org/bullseye/openbox
 [Obconf.]: https://packages.debian.org/bullseye/obconf
@@ -74,3 +75,4 @@ Install tenebris theme (/home/**username**):
 [Google Emoji font (NotoColorEmoji).]: https://victor.kropp.name/blog/emoji-on-linux/
 [Roboto Mono fonts.]: https://fonts.google.com/
 [Tenebris openbox theme (file obt to install).]: https://github.com/shaggyz/openbox-tenebris
+[LightDM GTK+ Greeter.]: https://packages.debian.org/stretch/utils/lightdm-gtk-greeter-settings
