@@ -1,5 +1,5 @@
 # debian-minimal-installation
-## Run this script after installing debian minimal.
+## Run this script after installing [debian minimal testing.]
 
 #### Before running the script:
 Change the last line with your username /sbin/adduser **username** sudo
@@ -45,6 +45,7 @@ Install tenebris theme (/home/**username**):
 * [Tenebris openbox theme (file obt to install).]
 * [LightDM GTK+ Greeter.]
 
+[debian minimal testing.]: https://www.debian.org/devel/debian-installer/
 [Openbox.]: https://packages.debian.org/bullseye/openbox
 [Obconf.]: https://packages.debian.org/bullseye/obconf
 [Mousepad.]: https://packages.debian.org/bullseye/mousepad
