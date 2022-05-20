@@ -3,7 +3,7 @@ apt-get update && apt-get upgrade -y
 
 apt-get install openbox obconf mousepad tint2 xfce4-screenshooter ristretto atril lightdm compton 
 lxappearance rofi alsa-utils volumeicon-alsa unzip sudo pcmanfm git vim curl wget gnome-backgrounds 
-rar unrar vlc lightdm-gtk-greeter-settings pavucontrol pulseaudio ibus nitrogen lxterminal -y
+rar unrar vlc lightdm-gtk-greeter-settings pavucontrol pulseaudio ibus nitrogen lxterminal xfce4-clipman -y
 
 curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add - 
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
