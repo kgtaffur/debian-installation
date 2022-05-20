@@ -49,6 +49,7 @@ Install tenebris theme:
 * [Pulseaudio]
 * [iBus]
 * [Nitrogen]
+* [Clipman]
 
 [debian minimal testing.]: https://www.debian.org/devel/debian-installer/
 [Openbox.]: https://packages.debian.org/bullseye/openbox
@@ -87,3 +88,4 @@ Install tenebris theme:
 [Pulseaudio]: https://packages.debian.org/bookworm/pulseaudio
 [iBus]: https://packages.debian.org/bookworm/ibus
 [Nitrogen]: https://packages.debian.org/bookworm/nitrogen
+[Clipman]: https://packages.debian.org/bookworm/xfce4-clipman
