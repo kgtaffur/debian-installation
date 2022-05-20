@@ -2,12 +2,12 @@
 ## Run this script after installing [debian minimal testing.]
 
 #### Before running the script:
-Change the last line with your username /sbin/adduser **username** sudo
+Make sure to run the script under ~/ 
 
 ***
 
 #### After running the script:
-Install tenebris theme (/home/**username**):  
+Install tenebris theme:  
 <code>obconf install tenebris.obt</code>
 
 ***
@@ -44,6 +44,11 @@ Install tenebris theme (/home/**username**):
 * [Roboto Mono fonts.]
 * [Tenebris openbox theme (file obt to install).]
 * [LightDM GTK+ Greeter.]
+* [Lxterminal]
+* [Pavucontrol]
+* [Pulseaudio]
+* [iBus]
+* [Nitrogen]
 
 [debian minimal testing.]: https://www.debian.org/devel/debian-installer/
 [Openbox.]: https://packages.debian.org/bullseye/openbox
@@ -77,3 +82,8 @@ Install tenebris theme (/home/**username**):
 [Roboto Mono fonts.]: https://fonts.google.com/
 [Tenebris openbox theme (file obt to install).]: https://github.com/shaggyz/openbox-tenebris
 [LightDM GTK+ Greeter.]: https://packages.debian.org/stretch/utils/lightdm-gtk-greeter-settings
+[Lxterminal]: https://packages.debian.org/bookworm/lxterminal
+[Pavucontrol]: https://packages.debian.org/bookworm/pavucontrol
+[Pulseaudio]: https://packages.debian.org/bookworm/pulseaudio
+[iBus]: https://packages.debian.org/bookworm/ibus
+[Nitrogen]: https://packages.debian.org/bookworm/nitrogen
